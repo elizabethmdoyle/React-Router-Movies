@@ -4,7 +4,7 @@ import {useParams } from 'react-router-dom'
 
 export default function Movie(props) {
   const [movie, setMovie] = useState();
-const {id} = useParams();
+  const {id} = useParams();
 
 
 
